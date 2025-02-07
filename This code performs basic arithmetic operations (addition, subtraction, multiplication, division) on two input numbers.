@@ -1,0 +1,11 @@
+# This code performs basic arithmetic operations (addition, subtraction, multiplication, division) on two input numbers.
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+s=a+b
+sub=a-b
+m=a*b
+d=a/b
+print("sum of {} and {} is {}".format(a,b,s))
+print("sub of {} and {} is {}".format(a,b,sub))
+print("mul of {} and {} is {}".format(a,b,m))
+print("Div of {} and {} is {}".format(a,b,b))
