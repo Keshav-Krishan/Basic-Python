@@ -1,0 +1,4 @@
+
+l=['hello','sita','santosh','Geeta','ram']
+result = [s for s in l if len(s) > 4]
+print(result)
